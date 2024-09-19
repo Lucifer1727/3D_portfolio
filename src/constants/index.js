@@ -4,7 +4,6 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -14,15 +13,17 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
 } from "../assets";
+
+import vaibhav from "../assets/Users/vaibhav.png";
+import vedant from "../assets/Users/vedant.png";
+import sujal from "../assets/Users/sujal.png";
+
+import neuronurturer from "../assets/neuronurturer.png";
 
 import codestam from "../assets/company/codestam.svg";
 import Hydroponic from "../assets/company/hydroponic.png";
@@ -75,16 +76,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -109,10 +102,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -147,42 +136,42 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as fast as Jayesh did that, He made it possible for us win a hackathon.",
+    name: "Vaibhav Waghmare",
+    designation: "Batchmate",
+    company: "IIIT Nagpur",
+    image: vaibhav,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I've never met a web developer who truly cares about their perfection.",
+    name: "Vedant Shriwastava",
+    designation: "College Mate",
+    company: "IIIT Nagpur",
+    image: vedant,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "After Jayesh optimized our finances and management work, our traffic increased by 50%. We can't thank them enough!",
+    name: "Amol Nehe Patil",
+    designation: "CEO",
+    company: "HRDC",
+    image: sujal,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "NeuroNurturer",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that aims to provide a home-based cognitive solution for children aged 6-10 facing developmental disabilities.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -190,8 +179,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: neuronurturer,
+    source_code_link: "https://github.com/Lucifer1727/Tech_Titans.git",
   },
   {
     name: "Job IT",
